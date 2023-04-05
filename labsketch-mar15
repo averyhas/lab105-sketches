@@ -39,8 +39,10 @@ function addStar(x, y, size) {
 
   // If mouse is pressed, star will change from light yellow to a brighter yellow.
   if (mouseIsPressed) {
+    noStroke();
     fill("yellow");
   } else {
+    noStroke();
     fill("lightgoldenrodyellow");
   }
 
